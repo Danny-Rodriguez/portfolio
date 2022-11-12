@@ -139,6 +139,16 @@ a.article:hover {
   color: #fff !important;
 }
 
+.projectView {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2vw;
+}
+
+.checkout {
+  font-size: calc(0.5em + 1vw);
+}
+
 /* ---------------------------------------------------
     CONTENT STYLE
 ----------------------------------------------------- */
@@ -156,15 +166,99 @@ a.article:hover {
     MEDIAQUERIES
 ----------------------------------------------------- */
 
+.col-md.project {
+  /* padding: calc(5px + 1.5625vw); */
+  /* margin-bottom: 1em !important; */
+  padding-left: calc(15px + 1.5625vw);
+}
+
+@media (width: 1366px) {
+  .col-md.project {
+    padding: calc(5px + 1.5625vw);
+    /* margin-bottom: 1em !important; */
+  }
+}
+
+@media (max-width: 1365px) {
+  .col-md.project {
+    padding: calc(5px + 1.5625vw);
+    /* margin-bottom: 1em !important; */
+  }
+}
+
 @media (max-width: 768px) {
   #sidebar {
-    margin-left: -250px;
+    /* margin-left: -250px; */
+    display: none;
+  }
+  #content {
+    margin-left: 0;
   }
   #sidebar.active {
     margin-left: 0;
   }
   #sidebarCollapse span {
     display: none;
+  }
+  .p-5 {
+    padding: 1rem !important;
+  }
+  .p-5 > .container {
+    padding-left: 0.2rem !important;
+  }
+  .col-md.p-5 > p {
+    font-size: initial !important;
+  }
+  .img-fluid {
+    width: 50%;
+    height: 50%;
+  }
+  .checkout {
+    font-family: "Poppins", sans-serif;
+    /* font-size: 1.1em; */
+    font-weight: 300;
+    /* line-height: 1.7em; */
+    display: none;
+  }
+  p.mt-4,
+  .col-md.p-5 > p {
+    /* font-size: calc(0.1em + 1vw); */
+    font-size: 8px;
+  }
+  .mb-3.mb-md-0.text-center {
+    margin-bottom: 0 !important;
+  }
+  .aboutText {
+    margin-left: 1rem;
+    color: white;
+    margin-right: 1rem;
+  }
+  .myInterests {
+    text-align: center;
+    margin-top: -0.8em;
+  }
+  .copyArrow {
+    display: flex;
+    flex-direction: column;
+  }
+  .row.text-center.g-4 {
+    margin-left: calc(-24px + 1vw);
+    /* margin-right: calc(1em + 1vw); */
+  }
+  .col-md.project {
+    padding: calc(5px + 1.5625vw);
+    margin-bottom: 1em !important;
+  }
+  .card.h-100 {
+    width: auto;
+  }
+}
+
+@media (width: 360px) {
+  .img-fluid {
+    width: 50%;
+    /* height: 50%; */
+    height: auto;
   }
 }
 

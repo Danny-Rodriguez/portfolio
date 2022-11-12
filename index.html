@@ -52,6 +52,7 @@
     <link rel="stylesheet" href="index.css" />
     <link rel="shortcut icon" href="icons/sunny.png" type="image" media="(prefers-color-scheme: light)" referrerpolicy="no-referrer" />
     <link rel="shortcut icon" href="icons/sunny-night.png" type="image" media="(prefers-color-scheme: dark)" referrerpolicy="no-referrer" />
+    <meta name="description" content="Full Stack Developer" />
     <title>Danny Rodriguez</title>
   </head>
   <body>
@@ -68,6 +69,7 @@
           <ul>
             <li>Javascript</li>
             <li>React</li>
+            <li>jQuery</li>
             <li>Node.js</li>
             <li>Express.js</li>
             <li>MongoDB</li>
@@ -103,10 +105,10 @@
         <section class="about d-flex">
           <img class="portrait img-fluid" src="img/professional-shot.jpg" alt="professional shot" width="300" height="405" />
           <div class="aboutText">
-            <h1 class="font-weight-light">Objective</h1>
+            <h1 class="font-weight-light mt-3">Objective</h1>
             <p class="mt-4">Prompt and Ready to Integrate with your Team.</p>
             <p class="mt-4">Whether you have a small dev team or a large production group, I am ready for the role. Currently I reside in San Diego, California and can relocate or work remote. Soft skills of mine include self-motivation, teamwork, patience, research and documentation reading, and good communcation skills.</p>
-            <p>Check out my GitHub Portfolio bellow for some of my work.</p>
+            <p class="checkout">Check out my GitHub Portfolio bellow for some of my work.</p>
             <!-- <button type="button" class="btn btn-outline-primary">Call to Action</button> -->
           </div>
         </section>
@@ -116,80 +118,82 @@
         </section>
 
         <!-- Portfolio -->
-        <section class="p-5">
-          <div class="container">
-            <div class="row text-center g-4">
-              <div class="col-md">
-                <div class="card h-100">
-                  <img class="card-img-top" src="img/crosswordia.png" alt="Crosswordia Screenshot" size="320" height="180" />
-                  <div class="card-body d-flex flex-column">
-                    <div class="d-flex justify-content-between gh">
-                      <div class="card-title h5">Crosswordia</div>
-                      <a class="github" href="https://github.com/Danny-Rodriguez/Crosswordia" aria-label="See Crosswordia's repository on GitHub">
-                        <img src="icons/folder-github.svg" alt="link to GitHub repository" width="25" height="25" />
-                        <img src="icons/folder-github-open.svg" alt="link to GitHub repository" width="25" height="25" />
-                      </a>
-                    </div>
-                    <p class="card-text text-start"><small class="text-muted">Full Stack Application</small></p>
-                    <div class="card-header d-flex"><img src="icons/handlebars.svg" alt="handlebars icon" width="25" height="25" /> <img src="icons/bootstrap-fill.svg" alt="bootstrap icon" width="25" height="25" /> <img src="icons/sass.svg" alt="sass icon" width="25" height="25" /> <img src="icons/javascript.svg" alt="javascript icon" width="25" height="25" /> <img src="icons/nodejs.svg" alt="node icon" width="25" height="25" /> <img src="icons/database.svg" alt="database icon" width="25" height="25" /> <img src="icons/mongodb.svg" alt="mongodb icon" width="25" height="25" /></div>
-                    <p class="card-text text-start">Crosswordia is a fun app where you can create, solve, and share crosswords. Try the gallery!</p>
-                    <button class="btn btn-primary"><a href="https://crosswordia.app/">Go to Site</a></button>
-                  </div>
-                  <div class="card-footer text-start">
-                    <small class="text-muted">
-                      <a href="https://crosswordia.app/" aria-label="See Crosswordia's live site">https://crosswordia.app/</a>
-                    </small>
-                  </div>
+        <!-- <section class="p-5"> -->
+        <section class="projectView">
+          <!-- <div class="container"> -->
+          <!-- <div class="row text-center g-4"> -->
+          <div class="col-md project">
+            <div class="card h-100">
+              <img class="card-img-top" src="img/crosswordia.png" alt="Crosswordia Screenshot" size="320" height="180" />
+              <div class="card-body d-flex flex-column">
+                <div class="d-flex justify-content-between gh">
+                  <div class="card-title h5">Crosswordia</div>
+                  <a class="github" href="https://github.com/Danny-Rodriguez/Crosswordia" aria-label="See Crosswordia's repository on GitHub">
+                    <img src="icons/folder-github.svg" alt="link to GitHub repository" width="25" height="25" />
+                    <img src="icons/folder-github-open.svg" title="link to GitHub repository" alt="link to GitHub repository" width="25" height="25" />
+                  </a>
                 </div>
+                <p class="card-text text-start"><small class="text-muted">Full Stack Application</small></p>
+                <div class="card-header d-flex"><img src="icons/handlebars.svg" title="Handlebars" alt="Handlebars icon" width="25" height="25" /> <img src="icons/bootstrap-fill.svg" title="Bootstrap" alt="Bootstrap icon" width="25" height="25" /> <img src="icons/sass.svg" title="Sass" alt="Sass icon" width="25" height="25" /> <img src="icons/javascript.svg" title="Javascript" alt="Javascript icon" width="25" height="25" /> <img src="icons/nodejs.svg" title="Node" alt="Node icon" width="25" height="25" /> <img src="icons/database.svg" title="Database" alt="Database icon" width="25" height="25" /> <img src="icons/mongodb.svg" title="MongoDB" alt="MongoDB icon" width="25" height="25" /></div>
+                <p class="card-text text-start">Crosswordia is a fun app where you can create, solve, and share crosswords. Try the gallery!</p>
+                <button class="btn btn-primary" aria-label="Go to Site"><a href="https://crosswordia.app/">Go to Site</a></button>
               </div>
-              <div class="col-md">
-                <div class="card h-100">
-                  <img class="card-img-top" src="img/hannah-morgan-ycVFts5Ma4s-unsplash.jpg" alt="New York Collection Screenshot" size="320" height="180" />
-                  <div class="card-body d-flex flex-column">
-                    <div class="d-flex justify-content-between gh">
-                      <div class="card-title h5">New York Collection</div>
-                      <a class="github" href="https://github.com/Danny-Rodriguez/NewYorkCollection" aria-label="See New York Collection's repository on GitHub">
-                        <img src="icons/folder-github.svg" alt="link to GitHub repository" width="25" height="25" />
-                        <img src="icons/folder-github-open.svg" alt="link to GitHub repository" width="25" height="25" />
-                      </a>
-                    </div>
-                    <p class="card-text text-start"><small class="text-muted">Full Stack Application</small></p>
-                    <div class="card-header d-flex"><img src="icons/react.svg" alt="react icon" width="25" height="25" /> <img src="icons/bootstrap-fill.svg" alt="bootstrap icon" width="25" height="25" /> <img src="icons/sass.svg" alt="sass icon" width="25" height="25" /> <img src="icons/stripe.svg" alt="Stripe icon" width="25" height="25" /> <img src="icons/nodejs.svg" alt="node icon" width="25" height="25" /> <img src="icons/database.svg" alt="database icon" width="25" height="25" /></div>
-                    <p class="card-text text-start">With this eCommerce shop you can enjoy the full shopping experience all the way to checkout!</p>
-                    <button class="btn btn-primary"><a href="http://newyorkcollection.shop/">Go to Site</a></button>
-                  </div>
-                  <div class="card-footer text-start">
-                    <small class="text-muted">
-                      <a href="http://newyorkcollection.shop/" aria-label="See New York Collection's live site">http://newyorkcollection.shop/</a>
-                    </small>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md">
-                <div class="card h-100">
-                  <img class="card-img-top" src="img/darwncooke.jpg" alt="Cape Twiddler Screenshot" size="320" height="180" />
-                  <div class="card-body d-flex flex-column">
-                    <div class="d-flex justify-content-between gh">
-                      <div class="card-title h5">Cape Twiddler</div>
-                      <a class="github" href="https://github.com/Danny-Rodriguez/CapeTwiddler" aria-label="See Cape Twiddler's repository on GitHub">
-                        <img src="icons/folder-github.svg" alt="link to GitHub repository" width="25" height="25" />
-                        <img src="icons/folder-github-open.svg" alt="link to GitHub repository" width="25" height="25" />
-                      </a>
-                    </div>
-                    <p class="card-text text-start"><small class="text-muted">Front End Only</small></p>
-                    <div class="card-header d-flex"><img src="icons/jquery.svg" alt="jQuery icon" width="25" height="25" /> <img src="icons/javascript.svg" alt="javascript icon" width="25" height="25" /> <img src="icons/html.svg" alt="HTML icon" width="25" height="25" /> <img src="icons/css.svg" alt="CSS icon" width="25" height="25" /></div>
-                    <p class="card-text text-start">See what's going on with the world of superheroes! This is a simple site I made to use jQuery.</p>
-                    <button class="btn btn-primary"><a href="https://danny-rodriguez.github.io/CapeTwiddler/">Go to Site</a></button>
-                  </div>
-                  <div class="card-footer text-start">
-                    <small class="text-muted">
-                      <a href="https://danny-rodriguez.github.io/CapeTwiddler/" aria-label="See Cape Twiddler's live site" class="small">https://danny-rodriguez.github.io/CapeTwiddler/</a>
-                    </small>
-                  </div>
-                </div>
+              <div class="card-footer text-start">
+                <small class="text-muted">
+                  <a href="https://crosswordia.app/" aria-label="See Crosswordia's live site">https://crosswordia.app/</a>
+                </small>
               </div>
             </div>
           </div>
+          <div class="col-md project">
+            <div class="card h-100">
+              <img class="card-img-top" src="img/hannah-morgan-ycVFts5Ma4s-unsplash.jpg" alt="New York Collection Screenshot" size="320" height="180" />
+              <!-- <img class="card-img-top" src="https://newyorkcollection.shop/assets/hannah-morgan-ycVFts5Ma4s-unsplash.jpg" alt="New York Collection Screenshot" size="320" height="180" /> -->
+              <div class="card-body d-flex flex-column">
+                <div class="d-flex justify-content-between gh">
+                  <div class="card-title h5">New York Collection</div>
+                  <a class="github" href="https://github.com/Danny-Rodriguez/NewYorkCollection" aria-label="See New York Collection's repository on GitHub">
+                    <img src="icons/folder-github.svg" alt="link to GitHub repository" width="25" height="25" />
+                    <img src="icons/folder-github-open.svg" title="link to GitHub repository" alt="link to GitHub repository" width="25" height="25" />
+                  </a>
+                </div>
+                <p class="card-text text-start"><small class="text-muted">Full Stack Application</small></p>
+                <div class="card-header d-flex"><img src="icons/react.svg" title="React" alt="React icon" width="25" height="25" /> <img src="icons/bootstrap-fill.svg" title="Bootstrap" alt="Bootstrap icon" width="25" height="25" /> <img src="icons/sass.svg" title="Sass" alt="Sass icon" width="25" height="25" /> <img src="icons/stripe.svg" title="Stripe" alt="Stripe icon" width="25" height="25" /> <img src="icons/nodejs.svg" title="Node" alt="Node icon" width="25" height="25" /> <img src="icons/database.svg" title="Database" alt="Database icon" width="25" height="25" /></div>
+                <p class="card-text text-start">With this eCommerce shop you can enjoy the full shopping experience all the way to checkout!</p>
+                <button class="btn btn-primary" aria-label="Go to Site"><a href="http://newyorkcollection.shop/">Go to Site</a></button>
+              </div>
+              <div class="card-footer text-start">
+                <small class="text-muted">
+                  <a href="http://newyorkcollection.shop/" aria-label="See New York Collection's live site">http://newyorkcollection.shop/</a>
+                </small>
+              </div>
+            </div>
+          </div>
+          <div class="col-md project">
+            <div class="card h-100">
+              <img class="card-img-top" src="img/darwncooke.jpg" alt="Cape Twiddler Screenshot" size="320" height="180" />
+              <div class="card-body d-flex flex-column">
+                <div class="d-flex justify-content-between gh">
+                  <div class="card-title h5">Cape Twiddler</div>
+                  <a class="github" href="https://github.com/Danny-Rodriguez/CapeTwiddler" aria-label="See Cape Twiddler's repository on GitHub">
+                    <img src="icons/folder-github.svg" alt="link to GitHub repository" width="25" height="25" />
+                    <img src="icons/folder-github-open.svg" title="link to GitHub repository" alt="link to GitHub repository" width="25" height="25" />
+                  </a>
+                </div>
+                <p class="card-text text-start"><small class="text-muted">Front End Only</small></p>
+                <div class="card-header d-flex"><img src="icons/jquery.svg" title="jQuery" alt="jQuery icon" width="25" height="25" /> <img src="icons/javascript.svg" title="Javascript" alt="Javascript icon" width="25" height="25" /> <img src="icons/html.svg" title="HTML" alt="HTML icon" width="25" height="25" /> <img src="icons/css.svg" title="CSS" alt="CSS icon" width="25" height="25" /></div>
+                <p class="card-text text-start">See what's going on with the world of superheroes! This is a simple site I made to use jQuery.</p>
+                <button class="btn btn-primary" aria-label="Go to Site"><a href="https://danny-rodriguez.github.io/CapeTwiddler/">Go to Site</a></button>
+              </div>
+              <div class="card-footer text-start">
+                <small class="text-muted">
+                  <a href="https://danny-rodriguez.github.io/CapeTwiddler/" aria-label="See Cape Twiddler's live site" class="small">https://danny-rodriguez.github.io/CapeTwiddler/</a>
+                </small>
+              </div>
+            </div>
+          </div>
+          <!-- </div> -->
+          <!-- </div> -->
         </section>
 
         <!-- Interests -->
@@ -197,7 +201,7 @@
           <div class="container">
             <div class="row align-items-center justify-content-between">
               <div class="interests col-md p-5">
-                <h2>My Interests</h2>
+                <h2 class="myInterests">My Interests</h2>
                 <p class="lead">I like reading about new topics, both in the world of coding as well as civic topics. Favorite civic topics of mine include the <a href="https://en.wikipedia.org/wiki/California_housing_shortage"> California Housing Crisis and Solutions</a> as well as <a href="https://en.wikipedia.org/wiki/Traffic_congestion">Traffic Solutions</a>.</p>
                 <p>Books I recommend include <em>Triumph of the City</em> as well as <em>How to Make Friends and Influence People</em></p>
                 <!-- <a href="#" class="btn btn-light mt-3"> <i class="bi bi-chevron-right"></i> Read More </a> -->
@@ -210,7 +214,7 @@
         <footer class="p-5 bg-dark text-white text-center position-relative">
           <div class="container">
             <p class="lead">Copyright &copy; Danny Rodriguez</p>
-            <a href="#" class="position-absolute bottom-0 end-0 p-5" aria-label="Go to top of page">
+            <a href="#" class="bottom-0 end-0 p-5" title="Go to top of page" aria-label="Go to top of page">
               <i class="bi bi-arrow-up-circle h1"></i>
             </a>
           </div>
