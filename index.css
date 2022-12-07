@@ -19,6 +19,11 @@ a:focus {
   transition: all 0.3s;
 }
 
+.skillsM,
+.contactM {
+  display: none;
+}
+
 .interests a {
   color: blue;
   text-decoration: underline;
@@ -237,6 +242,9 @@ a.article:hover {
     text-align: center;
     margin-top: -0.8em;
   }
+  .interests {
+    padding-bottom: 0.25em !important;
+  }
   .copyArrow {
     display: flex;
     flex-direction: column;
@@ -251,6 +259,13 @@ a.article:hover {
   }
   .card.h-100 {
     width: auto;
+  }
+  .skillsM,
+  .contactM {
+    display: block;
+  }
+  .bi.bi-link-45deg::before {
+    vertical-align: middle !important;
   }
 }
 
@@ -316,7 +331,8 @@ a.article:hover {
   background: linear-gradient(40deg, #20bf55, #01baef) !important;
 }
 
-footer {
+footer,
+.skillsM {
   /* background: linear-gradient(40deg, #01baef, #303f9f) !important; */
   background: linear-gradient(40deg, #303f9f, #01baef) !important;
 }
@@ -325,4 +341,17 @@ footer {
   .sidebar-header {
     padding-bottom: 5px !important;
   }
+}
+
+.list-group-item {
+  background-color: initial;
+}
+
+.skillsM {
+  background: linear-gradient(40deg, #01baef, #303f9f) !important;
+}
+
+.skillsM h2 {
+  margin-bottom: -0.03vh !important;
+  margin-top: -0.3vh !important;
 }
